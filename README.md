@@ -1,16 +1,10 @@
-# subdomain
+### A fast sub domain brute tool for pentesters
+[Download Mobile Version (APK)](https://gofile.io/d/NMMigJ)
+[Web Version](https://github.com/codenashwan/Rstacode-Cloud-Killer-By-Warwlok-14/)
 
-A new Flutter project.
 
-## Getting Started
+![Screenshot_2022-01-01-23-09-39-917_com example subdomain](https://user-images.githubusercontent.com/35005761/147859322-f9695cb2-be02-48c0-a1f9-b53ed3c1bc71.jpg)
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+![Screenshot_2022-01-01-23-09-59-231_com example subdomain](https://user-images.githubusercontent.com/35005761/147859324-d7c7e22e-7205-481a-bf77-fdc7253dfe79.jpg)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
