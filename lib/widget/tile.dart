@@ -27,7 +27,12 @@ class STile extends StatelessWidget {
       title: SText(
         title: domain.toString(),
       ),
-      subtitle: Text("Status Code : " + statuscode.toString()),
+      subtitle: Text(
+        "Status Code : " + statuscode.toString(),
+        style: TextStyle(
+          color: Colors.green,
+        ),
+      ),
     );
   }
 }

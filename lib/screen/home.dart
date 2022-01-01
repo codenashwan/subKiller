@@ -98,6 +98,9 @@ class _HomeState extends State<Home> {
                     domain: value.result[i]['url'],
                     statuscode: value.result[i]['status'],
                   ),
+                SizedBox(
+                  height: 10,
+                )
               ],
             );
           },
