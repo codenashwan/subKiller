@@ -12,25 +12,28 @@ class STile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ListTile(
-      shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(10),
-      ),
-      tileColor: Color(0xffF5F5F5),
-      // trailing: IconButton(
-      //   icon: Icon(
-      //     Icons.link,
-      //     color: Colors.orange,
-      //   ),
-      //   onPressed: () {},
-      // ),
-      title: SText(
-        title: domain.toString(),
-      ),
-      subtitle: Text(
-        "Status Code : " + statuscode.toString(),
-        style: TextStyle(
-          color: Colors.green,
+    return Padding(
+      padding: const EdgeInsets.only(top: 10.0),
+      child: ListTile(
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(10),
+        ),
+        tileColor: Color(0xffF5F5F5),
+        // trailing: IconButton(
+        //   icon: Icon(
+        //     Icons.link,
+        //     color: Colors.orange,
+        //   ),
+        //   onPressed: () {},
+        // ),
+        title: SText(
+          title: domain.toString(),
+        ),
+        subtitle: Text(
+          "Status Code : " + statuscode.toString(),
+          style: TextStyle(
+            color: Colors.green,
+          ),
         ),
       ),
     );
