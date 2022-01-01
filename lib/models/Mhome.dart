@@ -2,10 +2,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:flutter/services.dart' show rootBundle;
-import 'package:intl/intl.dart' as intl;
 
 class Mhome extends GetConnect with ChangeNotifier {
-  final formatter = intl.NumberFormat.decimalPattern();
   TextEditingController search = TextEditingController();
 
   String data = '';

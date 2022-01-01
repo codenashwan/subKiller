@@ -7,6 +7,7 @@ import 'package:subdomain/widget/header.dart';
 import 'package:subdomain/widget/input.dart';
 import 'package:subdomain/widget/text.dart';
 import 'package:subdomain/widget/tile.dart';
+import 'package:intl/intl.dart' as intl;
 
 class Home extends StatefulWidget {
   const Home({Key? key}) : super(key: key);
@@ -15,6 +16,8 @@ class Home extends StatefulWidget {
 }
 
 class _HomeState extends State<Home> {
+  final formatter = intl.NumberFormat.decimalPattern();
+
   @override
   Widget build(BuildContext context) {
     return SafeArea(
@@ -54,7 +57,8 @@ class _HomeState extends State<Home> {
                   children: [
                     SGrid(
                       title: "Subdomain",
-                      value: value.countFileInt() - (value.count + 1),
+                      value: formatter
+                          .format(value.countFileInt() - (value.count + 1)),
                     ),
                     SGrid(
                       title: "Start at",
