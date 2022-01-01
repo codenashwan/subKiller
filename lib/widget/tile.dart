@@ -17,13 +17,13 @@ class STile extends StatelessWidget {
         borderRadius: BorderRadius.circular(10),
       ),
       tileColor: Color(0xffF5F5F5),
-      trailing: IconButton(
-        icon: Icon(
-          Icons.link,
-          color: Colors.orange,
-        ),
-        onPressed: () {},
-      ),
+      // trailing: IconButton(
+      //   icon: Icon(
+      //     Icons.link,
+      //     color: Colors.orange,
+      //   ),
+      //   onPressed: () {},
+      // ),
       title: SText(
         title: domain.toString(),
       ),

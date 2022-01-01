@@ -5,6 +5,7 @@ home
 homepage
 homepage3
 homepage2
+mode
 pigg-life
 comune
 provincia
